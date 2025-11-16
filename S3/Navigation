@@ -1,0 +1,14 @@
+Step 1. Create The Bucket
+
+Login AWS Console -> Search Bar -> S3 -> Select Mumbai Region -> Create bucket -> Bucket name -> Uncheck The Block all public access And Acknowledged -> Create bucket
+
+
+Step 2. Create The Bucket Policy
+
+Select The Bucket -> Permissions -> Bucket policy -> Edit -> Copy And Paste The Bucket Policy -> Save changes
+
+
+Step 3. Enable The Static website hosting
+
+Select The Bucket -> Properties -> Static website hosting -> Edit -> Enable -> Index document (index.html) -> Save changes -> Upload All Website Files And Folders
+
