@@ -7,7 +7,7 @@ Features:
 Static website hosting: We can host the static website to enable this feature it provides specific website URL
 Transfer acceleration: its provides speeds up upload/download of the objects using edge locations
 Create replication rule: we can automatically copy objects from one bucket to another bucket
-Storage Classes: We can manage objects retention period
+Storage Classes: We can manage objects retention period which helps to reduce the cost accordingly
 
 Storages Classes:
 
