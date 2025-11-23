@@ -62,5 +62,5 @@ Go To Route tables -> Select The Route Table -> Routes -> Edit routes -> Add rou
 Note:
 
 1.	Edit the default Security Group as all traffic allow
-2.  All Instances must be created using same key pair
+2.  All instances must be created using same key pair
 3.	While connecting Bastion-host to private instance in ssh private IP of private instance should be use and key permission will be chmod 400 key-name in Bastion-host
