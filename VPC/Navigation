@@ -1,0 +1,65 @@
+Step 1. Create The VPC
+
+Login AWS Console -> Search Bar -> VPC -> Create VPC -> VPC only -> Name -> IPv4 CIDR(10.0.0.0/16) -> Create VPC
+
+
+
+Step 2. Create The Subnets
+
+Public Subnet:
+
+Go To Subnets Section -> Create subnet -> Select The VPC -> Subnet name -> Availability Zone -> IPv4 subnet CIDR block(10.0.0.0/24) -> Create subnet
+
+Private Subnet:
+
+Go To Subnets Section -> Create subnet -> Select The VPC -> Subnet name -> Availability Zone -> IPv4 subnet CIDR block(10.0.1.0/24) -> Create subnet
+
+
+
+Step 3. Associate The Public Subnet in Route Table
+
+Go To Route tables Section -> Select The Route Table -> Subnet associations -> Edit subnet associations -> Select The Public Subnet -> Save associations
+
+
+
+Step 4. Create Internet Gateway
+
+Go To Internet gateways Section -> Create internet gateway -> Name -> Actions -> Attach to VPC -> Select The VPC -> Attach internet gateway
+
+
+
+Step 5. Associate The Internet Gateway in Route Table
+
+Go To Route tables -> Select The Route Table -> Routes -> Edit routes -> Add route -> Select The Target(Internet Gateway) -> Destination(0.0.0.0/0) -> Save changes
+
+
+
+Step 6. Create The Private Route Table
+
+Go To Route tables -> Create route table -> Name -> Select The VPC -> Create route table
+
+
+
+Step 7. Associate The Private Subnet in Private Route Table
+
+Go To Route tables Section -> Select The Private Route Table -> Subnet associations -> Edit subnet associations -> Select The Private Subnet -> Save associations
+
+
+
+Step 8. Create The NAT Gateway
+
+Go To NAT gateways Section -> Create NAT gateway -> Name -> Select The VPC -> Create NAT gateway
+
+
+
+Step 9. Associate The NAT Gateway in Private Route Table
+
+Go To Route tables -> Select The Route Table -> Routes -> Edit routes -> Add route -> Select The Target(NAT Gateway) -> Destination(0.0.0.0/0) -> Save changes
+
+
+
+
+Note:
+
+1.	Edit the default Security Group as all traffic allow
+2.	While connecting Bastion-host to private instance in ssh private IP should be use and key permission will be chmod 400 key-name in Bastion-host
