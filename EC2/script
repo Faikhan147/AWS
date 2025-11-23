@@ -1,4 +1,5 @@
 #!/bin/bash
+sudo su
 apt update -y
 apt install -y apache2 unzip wget
 systemctl start apache2
