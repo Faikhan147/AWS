@@ -70,7 +70,7 @@ Use same CIDR  for multiple public and private subnets	❌ No	Each subnet must h
 (Yani 10.5.X.0/24 where X = 0 to 255)
 
 
-🧠 Final Master Rule
+⭐ VPC CIDR Rule
 ✔ Valid VPC CIDR = 10.X.0.0 /16 → /28
 
 Where:
