@@ -1,0 +1,80 @@
+1. MOST COMMON (Best Option)
+10.0.0.0/16
+
+Kyu best?
+
+Simple
+
+Yaad rehne wala
+
+Large (65,536 IPs)
+
+Subnet banana easy (/24, /20, /28 etc.)
+
+Har project me use ho sakta
+
+→ Real world me 80% VPCs यही use karti hain.
+
+
+
+Yes Faisal, 10.0.0.0/24 (public) + 10.0.1.0/24 (private)
+10.0.0.0/24
+
+
+
+2. General Rules for Subnet CIDR
+✔ Public = usually /24
+✔ Private = usually /24
+✔ DB = /24
+✔ NAT / LB = /28
+✔ ALWAYS different availability zones me
+
+Requirement	Allowed?	Notes
+Public + Private in same AZ	✅ Yes	Perfect design
+Use same CIDR  for multiple public subnets	❌ No	Each subnet must have unique CIDR
+Use same CIDR  for multiple private subnets	❌ No	Each subnet must have unique CIDR
+Use same CIDR  for multiple public and private subnets	❌ No	Each subnet must have unique CIDR
+
+
+
+3. Final Summary (Absolutely Correct)
+⭐ If VPC = 10.0.0.0/16
+
+➡ Subnets 10.0.0.0/24, 10.0.1.0/24, 10.0.2.0/24 …
+
+⭐ If VPC = 10.1.0.0/16
+
+➡ Subnets 10.1.0.0/24, 10.1.1.0/24, 10.1.2.0/24 …
+
+⭐ If VPC = 10.5.0.0/16
+
+➡ Subnets 10.5.0.0/24, 10.5.1.0/24, 10.5.2.0/24 …
+
+
+⭐ If VPC = 10.0.0.0/16
+
+➡ Valid subnets:
+10.0.0.0/24 → 10.0.255.0/24
+(Yani 10.0.X.0/24 where X = 0 to 255)
+
+⭐ If VPC = 10.1.0.0/16
+
+➡ Valid subnets:
+10.1.0.0/24 → 10.1.255.0/24
+(Yani 10.1.X.0/24 where X = 0 to 255)
+
+⭐ If VPC = 10.5.0.0/16
+
+➡ Valid subnets:
+10.5.0.0/24 → 10.5.255.0/24
+(Yani 10.5.X.0/24 where X = 0 to 255)
+
+
+🧠 Final Master Rule
+✔ Valid VPC CIDR = 10.X.0.0 /16 → /28
+
+Where:
+
+X = 0 to 255
+
+Last 2 octets = 0.0
