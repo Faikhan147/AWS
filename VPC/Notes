@@ -1,3 +1,32 @@
+What is VPC ? 
+
+It is a virtual private cloud where we can run the applications and save the data
+
+Componenets:
+
+Public Subnets:
+Private Subnets:
+Internet Gateway:
+NAT Gateway:
+NACL:
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 1. MOST COMMON (Best Option)
 10.0.0.0/16
 
