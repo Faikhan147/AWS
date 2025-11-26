@@ -1,32 +1,20 @@
 What is VPC ? 
 
-It is a virtual private cloud where we can run the applications and save the data
+It is a virtual private cloud isolated network in AWS where we can run, manage the applications and store the data
 
 
 Componenets:-
 
-Public Subnets:
-Private Subnets:
-Route Table:
-Internet Gateway:
-NAT Gateway:
-NACL:
+Public Subnets: It is a newtwork within VPC allows the AWS resouces to connect the internet through the internet gateway
+Private Subnets: It is a private network within VPC used for internal communication without direct internet access
+Route Table: It defines the routing rules to the VPC which controls how the traffic flows between subnets and gateways
+Internet Gateway: It provides the internet connection to VPC for aws resources in public subnet
+NAT Gateway: It provides the internet to the private subnet
+NACL: It controls the inbound and outboud traffic to the subnets using IP ranges
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
+Notes:-
 
 
 1. MOST COMMON (Best Option)
