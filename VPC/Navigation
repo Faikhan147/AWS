@@ -24,7 +24,7 @@ Go To Route tables Section -> Select The Route Table -> Subnet associations -> E
 
 Step 4. Create Internet Gateway
 
-Go To Internet gateways Section -> Create internet gateway -> Name -> Create internet gateway -> Select The Internet Gateway -> Actions -> Attach to VPC -> Select The VPC -> Attach internet gateway
+Go To Internet gateways Section -> Create internet gateway -> Name -> Create internet gateway -> Actions -> Attach to VPC -> Select The VPC -> Attach internet gateway
 
 
 
