@@ -1,0 +1,35 @@
+AWSTemplateFormatVersion: "2010-09-09"
+Description: "Create EC2 instance with website deployment using UserData"
+
+Resources:
+
+  WebServerInstance:
+    Type: AWS::EC2::Instance
+    Properties:
+      ImageId: ami-02b8269d5e85954ef     # Your AMI
+      InstanceType: t2.micro
+      KeyName: faisal                    # Your Key Pair
+      SecurityGroupIds:
+        - sg-06becf8eeaf3e7dd9           # Your SG
+      SubnetId: subnet-042c03481f1557a8f # Your Subnet
+      Tags:
+        - Key: Name
+          Value: website
+      UserData:
+        Fn::Base64: !Sub |
+          #!/bin/bash
+          sudo su
+          apt update -y
+          apt install -y apache2 unzip wget
+          systemctl start apache2
+          systemctl enable apache2
+
+          wget -O neogym.zip "https://html.design/downloads/13468/?tmstv=1762471543"
+          unzip -o neogym.zip
+          cp -r neogym-html/* /var/www/html/
+          systemctl restart apache2
+
+Outputs:
+  InstanceID:
+    Description: "EC2 Instance ID"
+    Value: !Ref WebServerInstance
