@@ -17,13 +17,13 @@ systemctl restart apache2
 """
 
     response = ec2.run_instances(
-        ImageId='ami-02b8269d5e85954ef',
+        ImageId='ami-02b8269d5e85954ef',  # Change according to your AWS Account
         InstanceType='t2.micro',
         MinCount=1,
         MaxCount=1,
-        KeyName='faisal',
-        SecurityGroupIds=['sg-06becf8eeaf3e7dd9'],
-        SubnetId='subnet-042c03481f1557a8f',
+        KeyName='faisal',  # Change according to your AWS Account
+        SecurityGroupIds=['sg-06becf8eeaf3e7dd9'],   # Change according to your AWS Account
+        SubnetId='subnet-042c03481f1557a8f',     # Change according to your AWS Account
         UserData=user_data_script,
         TagSpecifications=[
             {
