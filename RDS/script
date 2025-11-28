@@ -1,0 +1,3 @@
+apt update
+apt install mysql-client-core-8.0 -y
+mysql -h RDS-Endpoint -P 3306 -u username -p
