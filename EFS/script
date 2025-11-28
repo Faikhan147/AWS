@@ -1,2 +1,7 @@
+Setup for Same EFS → 2 Different EC2 Instances
+
+
 apt update
 apt install nfs-common -y
+sudo mkdir folder-name
+sudo mount -t nfs4 -o nfsvers=4.1 file-system-ID:/ folder-name
