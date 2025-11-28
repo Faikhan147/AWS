@@ -1,0 +1,3 @@
+What is IAM ?
+
+It is an Identity Access Management service in AWS where we can create the Roles and attach the policies, Users and Groups
