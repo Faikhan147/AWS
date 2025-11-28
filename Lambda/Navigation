@@ -1,0 +1,20 @@
+Step 1. Create The Lambda Function
+
+Login AWS Console -> Search Bar -> Lambda -> Create a function -> Function name -> Runtime(Python 3.14) -> Change default execution role -> Use an existing role(EC2-Full-Access) -> Create function
+
+
+
+Step 2. Configuration Setting in Lambda Function
+
+Go To Configuration Section -> General configuration -> Edit -> Timeout(1 min 3 sec) -> Save
+
+
+
+Step 3. Copy and Paste The Lambda Function Script
+
+Go To Code Section -> Copy and Paste The Lambda Function Script -> Click On Deploy (Ctrl+Shift+U)
+
+
+Step 4. Execute The Code
+
+Go To Test Section -> Test
