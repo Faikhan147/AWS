@@ -1,0 +1,3 @@
+What is ECS ?
+
+It is an elastic container service in AWS where we can create the cluster of the conatiners i.e services or Tasks to deploy, manage the containerize applications
