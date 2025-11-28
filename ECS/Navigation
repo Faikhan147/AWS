@@ -6,7 +6,7 @@ Login AWS Console -> Search Bar -> ECS -> Click On Elastic Container Service -> 
 
 Step 2. Create The Task Definition
 
-Go To Task definitions Section -> Create new task definition -> Task definition family Name -> Container details -> Name -> Image URI(Image Name) -> Create
+Go To Task definitions Section -> Create new task definition -> Task definition family Name -> Container - 1  -> Container details -> Name -> Image URI(Image Name) -> Create
 
 
 
