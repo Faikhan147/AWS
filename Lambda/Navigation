@@ -12,7 +12,7 @@ Go To Configuration Section -> General configuration -> Edit -> Timeout(1 min 3 
 
 Step 3. Copy and Paste The Lambda Function Script
 
-Go To Code Section -> Copy and Paste The Lambda Function Script -> Click On Deploy (Ctrl+Shift+U)
+Go To Code Section -> Copy and Paste The lambda-script -> Click On Deploy (Ctrl+Shift+U)
 
 
 Step 4. Execute The Code
