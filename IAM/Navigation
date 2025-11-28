@@ -1,1 +1,2 @@
-Login AWS Console -> Search Bar -> IAM -> Go To Roles Section -> Create role -> Use case -> Service or use case(EC2) -> Next -> Permissions policies(Select The AmazonEC2FullAccess) -> Next -> Role name -> Create role
+Login AWS Console -> Search Bar -> IAM -> Go To Roles Section -> Create role -> Use case -> Service or use case(EC2) -> Next -> 
+Permissions policies(Select The AmazonEC2FullAccess) -> Next -> Role name -> Create role
