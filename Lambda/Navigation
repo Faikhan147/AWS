@@ -1,6 +1,6 @@
 Step 1. Create The Lambda Function
 
-Login AWS Console -> Search Bar -> Lambda -> Create a function -> Function name -> Runtime(Python 3.14) -> Change default execution role -> Use an existing role(EC2-Full-Access) -> Create function
+Login AWS Console -> Search Bar -> Lambda -> Create a function -> Function name -> Runtime(Python 3.14) -> Change default execution role -> Use an existing role(Amazon-EC2-Full-Access) -> Create function
 
 
 
