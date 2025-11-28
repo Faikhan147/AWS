@@ -1,6 +1,6 @@
 Step 1. Create The Bucket
 
-Login AWS Console -> Search Bar -> S3 -> Select Mumbai Region -> Create bucket -> Bucket name -> Uncheck The Block all public access And Acknowledged -> Create bucket
+Login AWS Console -> Search Bar -> S3 -> Create bucket -> Bucket name -> Uncheck The Block all public access And Acknowledged -> Create bucket
 
 
 Step 2. Create The Bucket Policy
