@@ -1,0 +1,21 @@
+Step 1. Create The Cluster
+
+Login AWS Console -> Search Bar -> ECS -> Click On Elastic Container Service -> Clusters -> Create cluster -> Cluster name -> Create
+
+
+
+Step 2. Create The Task Definition
+
+Go To Task definitions Section -> Create new task definition -> Task definition family Name -> Container details -> Name -> Image URI(Image Name) -> Create
+
+
+
+Step 3. Create The Service
+
+Select The Cluster -> Services -> Create -> Select The Task definition family -> Networking -> Security group -> Security group name -> Create 
+
+
+
+Step 4. Run The Service On Chrome
+
+Select The Cluster -> Task -> Click The Task -> Scroll Down -> Public IP
