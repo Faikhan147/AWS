@@ -1,0 +1,9 @@
+What is RDS ?
+
+It is a Relational Database Service in AWS where we can create the databases such as MYSQL, PostgreSQL, Oracle etc
+
+
+Backups:-
+
+Automated Backups: It is taken by RDS by itself and automatically deleted within retention period
+Manual Snapshots: It is taken by user manually and not deleted automatically
