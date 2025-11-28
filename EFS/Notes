@@ -1,0 +1,8 @@
+What is EFS ?
+
+It is an Elastic File System Service in AWS where we can share the same data between the multiple ec2 instances.
+
+
+Advantage:-
+
+In EFS there is no limit of storage like EBS Volumes we can store unlimited data and the charges apply accordingly.
