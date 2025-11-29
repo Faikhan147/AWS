@@ -15,3 +15,10 @@ NetworkIn
 NetworkOut
 DiskReadBytes
 DiskWriteBytes
+
+
+
+Step 3. Search The Logs
+
+View in metrics -> Add query -> Logs(Top 10 log groups by incoming events) 
+View in metrics -> Add query -> Logs(Top 10 log groups by written bytes) 
