@@ -1,0 +1,28 @@
+Step 1. Configure environment
+
+Login AWS Console -> Search Bar -> Elastic Beanstalk -> Create application -> Application name -> Platform(Python) -> Application code -> Upload your code -> Version label(1) -> Local file -> Upload application -> Choose file -> Select The Application Zip File -> Next -> 
+
+
+
+Step 2. Configure service access
+
+Service access -> Service role -> Create role -> Next -> Next -> Create role.
+EC2 instance profile -> Create role -> Next -> Next -> Create role -> Next
+
+
+
+Step 3.  Set up networking, database, and tags - optional
+
+Instance settings -> VPC -> Select The VPC -> Public IP address Click On Enable -> Instance subnets(Select All Subnets) -> Next
+
+
+
+Step 4.  Configure instance traffic and scaling - optional
+
+Instances -> Root volume type -> Select The General Purpose (SSD) -> Size(10) -> EC2 security groups -> EC2 security groups(Select The Security Group) -> Capacity -> Instance types(Remove Remaining Instance types choose t3.micro) -> Next
+
+
+
+Step 5. Configure updates, monitoring, and logging - optional
+
+Email notifications -> Email(Your Email-ID) -> Next -> Create
