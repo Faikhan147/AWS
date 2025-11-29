@@ -1,6 +1,6 @@
 Step 1. Create The Dashboard
 
-First Launch The EC2 instance by using the instance-setup-script
+Launch The EC2 instance by using the instance-setup-script
 
 Login AWS Console -> Search Bar -> CloudWatch -> Dashboards -> Create dashboard -> Dashboard name -> Name -> Create dashboard -> Widget Configuration -> Next -> 
 Click On EC2 -> Click On Per-Instance Metrics -> Search The Instance ID
