@@ -1,6 +1,6 @@
 Step 1. Configure environment
 
-Login AWS Console -> Search Bar -> Elastic Beanstalk -> Create application -> Application name -> Create environment -> Platform(Python) -> 
+Login AWS Console -> Search Bar -> Elastic Beanstalk -> Create application -> Application name -> Name -> Create environment -> Platform(Python) -> 
 Application code -> Upload your code -> Version label(1) -> Local file -> Upload application -> Choose file -> Select The Application Zip File -> Next -> 
 
 
