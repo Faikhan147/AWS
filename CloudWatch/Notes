@@ -1,0 +1,3 @@
+What is CloudWatch ?
+
+It is a monitoring service in AWS where we can monitor the metrices of AWS resources such as CPU usage, Network, Memory, Disk and logs etc.
