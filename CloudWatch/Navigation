@@ -1,0 +1,15 @@
+Step 1. Create The Dashboard
+
+Login AWS Console -> Search Bar -> CloudWatch -> Dashboards -> Create dashboard -> Dashboard name -> Name -> Create dashboard -> Widget Configuration -> Select The Gauge -> Next -> Click On EC2 -> Click On Per-Instance Metrics -> Search The Instance ID
+
+
+
+Step 2. Search The Metrices -> After Search Create widget -> Save -> Select The Dashboard -> View in metrics -> Select The Gauge
+
+Select The Below Metrices
+
+CPUUtilization
+NetworkIn
+NetworkOut
+DiskReadBytes
+DiskWriteBytes
