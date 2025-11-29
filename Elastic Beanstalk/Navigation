@@ -1,6 +1,7 @@
 Step 1. Configure environment
 
-Login AWS Console -> Search Bar -> Elastic Beanstalk -> Create application -> Application name -> Platform(Python) -> Application code -> Upload your code -> Version label(1) -> Local file -> Upload application -> Choose file -> Select The Application Zip File -> Next -> 
+Login AWS Console -> Search Bar -> Elastic Beanstalk -> Create application -> Application name -> Create environment -> Platform(Python) -> 
+Application code -> Upload your code -> Version label(1) -> Local file -> Upload application -> Choose file -> Select The Application Zip File -> Next -> 
 
 
 
@@ -19,7 +20,8 @@ Instance settings -> VPC -> Select The VPC -> Public IP address Click On Enable 
 
 Step 4.  Configure instance traffic and scaling - optional
 
-Instances -> Root volume type -> Select The General Purpose (SSD) -> Size(10) -> EC2 security groups -> EC2 security groups(Select The Security Group) -> Capacity -> Instance types(Remove Remaining Instance types choose t3.micro) -> Next
+Instances -> Root volume type -> Select The General Purpose (SSD) -> Size(10) -> EC2 security groups -> EC2 security groups(Select The Security Group) -> 
+Capacity -> Instance types(Remove Remaining Instance types choose t3.micro) -> Next
 
 
 
