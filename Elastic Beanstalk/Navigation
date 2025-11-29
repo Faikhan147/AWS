@@ -3,7 +3,8 @@ Step 1. Configure environment
 Download The Zip File faisal-python-elasticbeanstalk-app.zip
 
 Login AWS Console -> Search Bar -> Elastic Beanstalk -> Create application -> Application name -> Name -> Create -> Create environment -> Platform(Python) -> 
-Application code -> Upload your code -> Version label(1) -> Local file -> Upload application -> Choose file -> Select The Application Zip File -> Next -> 
+Application code -> Upload your code -> Version label(1) -> Local file -> Upload application -> Choose file(Upload The Zip File faisal-python-elasticbeanstalk-app.zip) -> 
+Select The Application Zip File -> Next -> 
 
 
 
