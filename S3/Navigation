@@ -7,7 +7,7 @@ Login AWS Console -> Search Bar -> S3 -> Create bucket -> Bucket name -> Uncheck
 
 Step 2. Create The Bucket Policy
 
-Select The Bucket -> Permissions -> Bucket policy -> Edit -> Copy And Paste The Bucket Policy -> Save changes
+Select The Bucket -> Permissions -> Bucket policy -> Edit -> Copy And Paste The Bucket-Policy -> Save changes
 
 
 Step 3. Enable The Static website hosting
