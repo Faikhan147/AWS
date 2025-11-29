@@ -6,12 +6,12 @@ Resources:
   WebServerInstance:
     Type: AWS::EC2::Instance
     Properties:
-      ImageId: ami-02b8269d5e85954ef     # Your AMI
+      ImageId: ami-02b8269d5e85954ef     #  Change Accordinly
       InstanceType: t2.micro
-      KeyName: faisal                    # Your Key Pair
+      KeyName: faisal                    # Change Accordinly
       SecurityGroupIds:
-        - sg-06becf8eeaf3e7dd9           # Your SG
-      SubnetId: subnet-042c03481f1557a8f # Your Subnet
+        - sg-06becf8eeaf3e7dd9           # Change Accordinly
+      SubnetId: subnet-042c03481f1557a8f # Change Accordinly
       Tags:
         - Key: Name
           Value: website
