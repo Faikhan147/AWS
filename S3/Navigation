@@ -1,6 +1,6 @@
 Step 1. Create The Bucket
 
-First download the Zip File neogym-html.zip
+Download The Zip File neogym-html.zip
 
 Login AWS Console -> Search Bar -> S3 -> Create bucket -> Bucket name -> Uncheck The Block all public access And Acknowledged -> Create bucket
 
