@@ -11,5 +11,5 @@ df -h
 Step 2. Create The File
 
 cd /data
-touch test.txt
+touch faisal.txt
 ls -l
