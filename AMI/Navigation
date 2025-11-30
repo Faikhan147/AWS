@@ -1,0 +1,12 @@
+Step 1. Create The AMI Image
+
+
+Launch The EC2 instance by using the instance-setup-script
+
+Login AWS Console -> Select The instance -> Actions -> Image and templates -> Create image -> Image name -> Name -> Create image -> Delete The Instance
+
+
+
+Step 2. Launch The EC2 Instance using AMI 
+
+Search Bar -> AMI -> AMIs -> Select The AMI -> Launch instance from AMI -> Name -> Instance type -> Key pair name - required -> Select existing security group -> Launch instance 
