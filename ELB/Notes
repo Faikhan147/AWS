@@ -1,0 +1,11 @@
+What is Load Balancer ?
+
+It is used to route the traffic into multiple targets such as EC2 instances.
+
+
+Types:-
+
+Classic Load Balancer: It operates transport layer.
+Application Load Balancer: It operates application layer and provide path based routing.
+Network Load Balancer: It operates transport layer and used for high-performance/high workloads.
+Gateway Load Balancer: It operates network layer and used for third party virtual appliances.
