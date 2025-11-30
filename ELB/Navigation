@@ -9,5 +9,5 @@ Next -> Available instances(Select The Instance) -> Click On Include as pending 
 
 Step 2. Create The Application Load Balancer
 
-Search Bar -> Load Balancers(EC2 feature) -> Create load balancer -> Load balancer types -> Application Load Balancer -> Create -> Load balancer name -> Name -> 
+Search Bar -> Load balancers(EC2 feature) -> Create load balancer -> Load balancer types -> Application Load Balancer -> Create -> Load balancer name -> Name -> 
 Network mapping -> Availability Zones and subnets(Select All) -> Security groups -> Listeners and routing -> Target group(Select The Target Group) -> Create load balancer
