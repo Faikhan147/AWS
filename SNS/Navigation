@@ -7,7 +7,7 @@ Protocol(Email) -> Endpoint(Your Email-ID) -> Create subscription -> Go To Your 
 
 Step 2. Create The Amazon EventBridge Rule For EC2 Launch
 
-Search Bar -> Amazon EventBridge -> Rules -> Create rule -> Events -> Click On AWS SERVICES EVENTS -> Select The EC2 Instance State-change Notification -> Drag It To Triggering Events -> 
+Search Bar -> Amazon EventBridge -> Rules -> Create rule -> Events -> Click On AWS SERVICE EVENTS -> Select The EC2 Instance State-change Notification -> Drag It To Triggering Events -> 
 Event pattern (filter) Copy And Paste This Below
 
 
@@ -41,7 +41,7 @@ Click On Targets -> Scroll Down And Select The Topic -> Create -> Rule name -> N
 
 Step 3. Create The Amazon EventBridge Rule For EC2 Terminate
 
-Search Bar -> Amazon EventBridge -> Rules -> Create rule -> Events -> Click On AWS SERVICES EVENTS -> Select The EC2 Instance State-change Notification -> Drag It To Triggering Events -> 
+Search Bar -> Amazon EventBridge -> Rules -> Create rule -> Events -> Click On AWS SERVICE EVENTS -> Select The EC2 Instance State-change Notification -> Drag It To Triggering Events -> 
 Event pattern (filter) Copy And Paste This Below
 
 
