@@ -1,0 +1,13 @@
+Step 1. Create The Template
+
+Login AWS Console -> Search Bar -> Launch Templates -> Create launch template -> Launch template name - required -> Name -> Application and OS Images (Amazon Machine Image) -> 
+Quick Start(Select Ubuntu) -> Instance type -> Key pair name -> Select existing security group -> Advanced details -> Copy And Paste template-setup-script -> 
+Create launch template
+
+
+
+Step 2. Create The Auto Scaling Group
+
+Search Bar -> Auto Scaling groups -> Create Auto Scaling group -> Auto Scaling group name -> Name -> Launch template(Select The Template) -> Next -> 
+Availability Zones and subnets(Select All) -> Next -> Next -> Desired capacity (3) -> Scaling -> Min desired capacity (3) -> Max desired capacity (6) -> Next -> Next -> 
+Add tags - optional -> Add tag -> Key(Name) -> Value - optional(website) -> Next -> Create Auto Scaling group
