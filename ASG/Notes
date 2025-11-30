@@ -1,0 +1,3 @@
+What is ASG ?
+
+It is an Auto Scaling Group Service in AWS where we can automatically scale up and scale down the EC2 instances based on desired, minimum and maximum capacity.
