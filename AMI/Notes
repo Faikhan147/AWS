@@ -1,0 +1,3 @@
+What is AMI ?
+
+It is an Amazon Machine Image which  contains the OS, application and their related configuration and used to launch the EC2 instance.
