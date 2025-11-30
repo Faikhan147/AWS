@@ -8,7 +8,7 @@ Device name(Select The /dev/sdd) -> Attach volume
 
 
 
-Step 2. Launch The Instance
+Step 2. Instance Setup
 
-Launch The EC2 instance with ap-south-1a Availability Zone Subnet
+Instance Setup Using instance-setup
 
