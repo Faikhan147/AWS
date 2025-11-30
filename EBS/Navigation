@@ -1,4 +1,5 @@
 Launch The EC2 Instance With ap-south-1a Availability Zone Subnet
 
 Login AWS Console -> Search Bar -> Volumes(EC2 feature) -> Create volume -> Size (GiB) (50) -> Availability Zone(ap-south-1a) -> Tags - optional -> Add tag -> Key(Name) -> 
-Value - optional -> Name -> Create volume -> Select The Volume -> Actions -> Attach volume -> Basic details -> Instance(Select The Instance) -> Device name(Select The /dev/sdd) -> Attach volume
+Value - optional -> Name -> Create volume -> Select The Volume -> Actions -> Attach volume -> Basic details -> Instance(Select The Instance) -> 
+Device name(Select The /dev/sdd) -> Attach volume
