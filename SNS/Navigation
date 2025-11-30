@@ -1,0 +1,72 @@
+Step 1. Create The SNS Topic And Subscription
+
+Login AWS Console -> Search Bar -> SNS -> Click On Simple Notification Service -> Topics -> Create topic -> Standard -> Name -> Create topic -> Create subscription -> 
+Protocol(Email) -> Endpoint(Your Email-ID) -> Create subscription -> Go To Your Gmail Account And Confirm The Subscription
+
+
+
+Step 2. Create The Amazon EventBridge Rule For EC2 Launch
+
+Rules -> Create rule -> Events -> Click On AWS SERVICES EVENTS -> Select The EC2 Instance State-change Notification -> Drag It To Triggering Events -> 
+Event pattern (filter) Copy And Paste This Below
+
+
+{
+  "source": ["aws.ec2"],
+  "detail-type": ["EC2 Instance State-change Notification"],
+  "detail": {
+    "state": ["running"]
+  }
+}
+
+
+Click On Targets ->  Select The SNS topic -> Drag It To Targets
+
+Click On (Input transformation) -> Scroll Down And Enable -> Input transformer -> Input path Copy And Paste This Below
+
+{}
+
+
+Template Copy And Paste This Below
+
+
+{
+  "message": "Website Instance is Launched"
+}
+
+
+Click On Targets -> Scroll Down And Select The Topic -> Create -> Rule name -> Name -> Create
+
+
+
+Step 3. Create The Amazon EventBridge Rule For EC2 Terminate
+
+Rules -> Create rule -> Events -> Click On AWS SERVICES EVENTS -> Select The EC2 Instance State-change Notification -> Drag It To Triggering Events -> 
+Event pattern (filter) Copy And Paste This Below
+
+
+{
+  "source": ["aws.ec2"],
+  "detail-type": ["EC2 Instance State-change Notification"],
+  "detail": {
+    "state": ["terminated"]
+  }
+}
+
+
+Click On Targets ->  Select The SNS topic -> Drag It To Targets
+
+Click On (Input transformation) -> Scroll Down And Enable -> Input transformer -> Input path Copy And Paste This Below
+
+{}
+
+
+Template Copy And Paste This Below
+
+
+{
+  "message": "Website Instance is Terminated"
+}
+
+
+Click On Targets -> Scroll Down And Select The Topic -> Create -> Rule name -> Name -> Create
