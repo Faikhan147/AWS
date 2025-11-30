@@ -1,0 +1,3 @@
+What is SNS ?
+
+It is a Simple Notification Service in AWS where we can send the messages via Email or SMS when the AWS resources are launched or terminated.
