@@ -1,2 +1,2 @@
-Login AWS Console -> Search Bar -> RDS -> Click Aurora and RDS -> Databases -> Create database -> Easy create -> Engine type(MYSQL) -> Free tier -> 
+Login AWS Console -> Search Bar -> RDS -> Click On Aurora and RDS -> Databases -> Create database -> Easy create -> Engine type(MYSQL) -> Free tier -> 
 DB instance identifier(Type Database Name You Want) -> Master username -> Credentials management(Self managed) -> Master password -> Confirm master password -> Create database
