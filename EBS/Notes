@@ -1,0 +1,22 @@
+What is EBS ?
+
+It is an Elastic Block Storage in AWS where we can use to store the data and retention.
+
+
+Types:-
+
+General Purpose SSD (gp2/gp3)
+Provisioned IOPS SSD (io1/io2)
+Throughput Optimized HDD 
+Magnetic (standard)
+
+
+Note:
+
+Check filesystem by below command:
+sudo file -s /dev/xvdd
+
+If we get the output: 
+/dev/xvdd: data
+
+That means we need to format
