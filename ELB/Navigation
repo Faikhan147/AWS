@@ -1,0 +1,13 @@
+Step 1. Create The Target Group
+
+Launch The EC2 instance by using the instance-setup-script
+
+Login AWS Console -> Search Bar -> Target groups(EC2 feature) -> Create target group -> Target group name -> Name -> Health checks -> Health check path(/index.html) -> 
+Next -> Available instances(Select The Instance) -> Click On Include as pending below -> Next -> Create target group
+
+
+
+Step 2. Create The Application Load Balancer
+
+Search Bar -> Load Balancers(EC2 feature) -> Create load balancer -> Load balancer types -> Application Load Balancer -> Create -> Load balancer name -> Name -> 
+Network mapping -> Availability Zones and subnets(Select All) -> Security groups -> Listeners and routing -> Target group(Select The Target Group) -> Create load balancer
