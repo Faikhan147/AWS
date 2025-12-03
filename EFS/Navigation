@@ -1,1 +1,9 @@
+Step 1. Creatwe The EFS
+
 Login AWS Console -> Search Bar -> EFS -> File systems -> Create file system -> Name - optional -> Create file system
+
+
+
+Step 2. Instance Setup for Same EFS Two Different EC2 Instances
+
+Instance Setup Using instance-setup
