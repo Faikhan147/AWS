@@ -1,0 +1,5 @@
+Launch The EC2 instance by using the instance-setup-script
+
+Login AWS Console -> Search Bar -> CloudFront -> Create distribution -> Choose a plan(Select The Free If Disable Select The Pay as you go) -> Next -> Distribution name -> 
+Next -> Origin type(Select The Other) -> Origin -> Custom origin -> Copy And Paste The Instance Public DNS -> Settings -> Origin settings(Click On Customize origin settings) -> 
+Protocol(Click On HTTP only) -> Next -> Enable security(Select The Use monitor mode and Enable The Rate limiting) -> Next -> Create distribution
