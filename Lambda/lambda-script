@@ -6,11 +6,14 @@ def lambda_handler(event, context):
     user_data_script = """#!/bin/bash
 sudo su
 apt update -y
-apt install -y apache2 unzip wget
+apt install -y apache2 unzip wget pipx
+pipx install gdown
+pipx ensurepath
+source ~/.bashrc
 systemctl start apache2
 systemctl enable apache2
 
-wget -O neogym.zip "https://html.design/downloads/13468/?tmstv=1762471543"
+gdown 1H9RaSCEx1pvBupx2qcDvcN1E7YLdcl2B -O neogym.zip
 unzip -o neogym.zip
 cp -r neogym-html/* /var/www/html/
 systemctl restart apache2
