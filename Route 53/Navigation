@@ -1,8 +1,8 @@
-Step 1. Create The Hosted Zone With Name As Hostinger Domain Name
+Step 1. Create The Hosted Zone With Same Name As Hostinger Domain Name
 
 Launch The EC2 instance by using the instance-setup-script
 
-Login AWS Console -> Search Bar -> Route 53 -> Get started -> Create hosted zones -> Get started -> Domain name -> Name -> Create hosted zone -> Create record -> 
+Login AWS Console -> Search Bar -> Route 53 -> Get started -> Create hosted zones -> Get started -> Domain name -> Name(Same Name As Hostinger Domain Name) -> Create hosted zone -> Create record -> 
 Quick create record -> Value(Copy And Paste The Public IP of The Instance) -> Create records -> 
 
 
