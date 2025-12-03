@@ -1,6 +1,3 @@
-Setup for Same EFS → 2 Different EC2 Instances
-
-
 apt update
 apt install nfs-common -y
 sudo mkdir faisal
