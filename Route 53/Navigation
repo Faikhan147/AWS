@@ -9,7 +9,8 @@ Create hosted zone -> Create record -> Quick create record -> Value(Copy And Pas
 
 Step 2. Add The NS Nameservers In Hostinger
 
-Login Hostinger -> Domains -> Domain portfolio -> Click On Domain name -> DNS / Nameservers -> Change Nameservers -> Change nameservers -> Copy And Paste The NS Nameservers From Route 53 -> Save
+Login Hostinger -> Domains -> Domain portfolio -> Click On Domain name -> DNS / Nameservers -> Change Nameservers -> Change nameservers -> 
+Copy And Paste The NS Nameservers From Route 53 -> Save -> Run The Wesbite With Hostinger Domain Name
 
 
 Example:
