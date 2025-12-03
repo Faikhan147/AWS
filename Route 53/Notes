@@ -1,0 +1,11 @@
+What is Route 53 ?
+
+It is a Domain Name System service in AWS which can route the internet traffic from Domain Name to IP Address. It also provides Domain Name registry, Routing Policies.
+
+
+Routing Policies Types:-
+
+Weighted Policy
+Latency Policy
+Failover Policy
+Geolocation Policy
