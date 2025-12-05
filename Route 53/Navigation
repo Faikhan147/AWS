@@ -13,7 +13,7 @@ Login Hostinger -> Domains -> Domain portfolio -> Click On Domain name -> DNS / 
 Copy And Paste The NS Nameservers From Route 53 -> Save -> Run The Wesbite With Hostinger Domain Name
 
 
-Example:
+NS Nameservers Example:
 
 ns-123.awsdns-45.com
 ns-456.awsdns-67.net
