@@ -9,7 +9,7 @@ Application code -> Upload your code -> Version label(1) -> Local file -> Upload
 
 Step 2. Configure service access
 
-Service role -> Create role -> Next -> Next -> Create role -> Select The Service role.
+Service role -> Create role -> Next -> Next -> Create role -> Select The Service role
 EC2 instance profile -> Create role -> Next -> Next -> Create role -> Select The  EC2 instance profile -> Next
 
 
