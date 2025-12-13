@@ -69,4 +69,10 @@ Template Copy And Paste This Below
 }
 
 
-Click On Targets -> Scroll Down And Select The Topic -> Create -> Rule name -> Name -> Create -> Create The EC2 instance using instance-setup-script
+Click On Targets -> Scroll Down And Select The Topic -> Create -> Rule name -> Name -> Create 
+
+
+
+Step 3. Run The Script
+
+Launch The EC2 instance by using the instance-setup-script
