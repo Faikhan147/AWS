@@ -1,2 +1,2 @@
 Login AWS Console -> Search Bar -> EC2 -> Launch Instance -> Enter Name -> Choose OS (Ubuntu) -> Choose Instance Type (t2.micro) -> 
-Select/ Create Key Pair -> Select Existing Security Group -> Advanced Details -> Add User Data (optional) -> Paste The instance-setup-script -> Launch Instance
+Select/ Create Key Pair -> Select Existing Security Group -> Advanced Details -> Add User Data (optional) -> Copy And Paste The instance-setup-script -> Launch Instance
