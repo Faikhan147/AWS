@@ -1,3 +1,3 @@
 What is Elastic Beanstalk ?
 
-It is an Infrastructure as Code service in AWS. Simply we have to upload the code it automatically deploy, scaling and monitoring the application it supports languages like Python, Node.js, Ruby etc.
+It is a platform as service in AWS. Simply we have to upload the code it automatically deploy, scaling and monitoring the application it supports languages like Python, Node.js, Ruby etc.
