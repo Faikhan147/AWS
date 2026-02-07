@@ -1,4 +1,4 @@
-Step 1. Creatwe The EFS File System
+Step 1. Create The EFS File System
 
 Login AWS Console -> Search Bar -> EFS -> File systems -> Create file system -> Name - optional -> Create file system
 
