@@ -1,6 +1,6 @@
 What is EBS ?
 
-It is an Elastic Block Storage in AWS where we can use to store the data and retention.
+It is an Elastic Block Storage in AWS and we  use to store the data persistently.
 
 
 Types:-
