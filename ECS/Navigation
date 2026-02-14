@@ -18,4 +18,4 @@ Select The Cluster -> Services -> Create -> Select The Task definition family ->
 
 Step 4. Run The Service On Chrome
 
-Select The Cluster -> Task -> Click The Task -> Scroll Down -> Public IP
+Select The Cluster -> Task -> Click The Task -> Scroll Down -> Copy Public IP
